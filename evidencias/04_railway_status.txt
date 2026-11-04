@@ -1,0 +1,22 @@
+Evidencia 4 - Paso 4.3: estado del servicio después del despliegue
+Fecha: 3 de noviembre de 2026
+
+PS ...\UNIDAD 2\agente-soporte> railway status
+Workspace:       perezcarlosalberto's Projects
+
+Project:         agente-soporte-ia
+
+Environment:     production
+
+Linked service
+
+agente
+    status:        ● Online
+    region:        sfo
+
+────────────────────────────────────────────────
+
+All resources
+
+    Services
+      - agente: ● Online

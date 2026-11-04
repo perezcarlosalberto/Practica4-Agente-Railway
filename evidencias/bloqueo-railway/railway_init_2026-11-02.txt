@@ -1,0 +1,12 @@
+Bloqueo temporal de Railway - intento de crear el proyecto el 2 de noviembre de 2026
+La sesión de la CLI ya estaba iniciada (railway whoami respondía correctamente), pero Railway
+no permitía crear proyectos con cuentas nuevas:
+
+PS ...\UNIDAD 2\agente-soporte> railway init --name agente-soporte-ia
+> Select a workspace perezcarlosalberto's Projects
+> Project Name agente-soporte-ia
+Trials are temporarily paused for new accounts. Upgrade to a paid plan to start deploying.
+
+El mismo aviso aparecía en el panel web (ver aviso_pruebas_pausadas.png).
+El 3 de noviembre se repitió el mismo comando y el proyecto se creó sin problema
+(ver ../02_proyecto_y_servicio.txt).

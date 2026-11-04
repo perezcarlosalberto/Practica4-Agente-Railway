@@ -1,0 +1,8 @@
+Evidencia 1 - Pasos 1.3 y 1.4: Railway CLI instalada y sesión iniciada
+Fecha: 3 de noviembre de 2026 (PowerShell, carpeta del proyecto del agente)
+Nota: el correo de la cuenta se ocultó para publicar este archivo.
+
+PS ...\UNIDAD 2\agente-soporte> railway --version; railway whoami
+railway 5.71.0
+
+Logged in as [correo oculto] 👋

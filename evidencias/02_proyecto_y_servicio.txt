@@ -1,0 +1,25 @@
+Evidencia - Fase 2: crear el proyecto y el servicio
+Fecha: 3 de noviembre de 2026 (PowerShell, carpeta del proyecto del agente)
+
+PS ...\UNIDAD 2\agente-soporte> railway init --name agente-soporte-ia
+> Select a workspace perezcarlosalberto's Projects
+> Project Name agente-soporte-ia
+
+Created project agente-soporte-ia on perezcarlosalberto's Projects
+
+PS ...\UNIDAD 2\agente-soporte> railway add --service agente
+> What do you need? Empty Service
+> Enter a service name agente
+? Enter a variable <esc to skip> <cancelled>
+  Successfully created the service "agente" and linked to it
+
+PS ...\UNIDAD 2\agente-soporte> railway status
+Project:         agente-soporte-ia
+Environment:     production
+
+Linked service
+
+agente
+    status:        ○ Offline
+
+(El servicio aparece Offline porque todavía no se le había enviado código.)
